@@ -1,0 +1,120 @@
+*{
+    margin: 0.5px;
+    font-family: sans-serif;
+}
+.main-container{
+    position: relative;
+}
+.navbar{
+    position: fixed;
+    width: 100%;
+    padding: 5px;
+    background-color: rgb(75, 74, 74);
+    z-index: 1;
+}    
+.navbar ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;    
+}
+.navbar ul li{
+    padding-right: 6px;
+    margin: 5px;
+}
+.navbar ul li a{
+    text-decoration-line: none;
+    color: coral;
+}
+.banner{
+    top: 40px;
+    position: relative;
+}
+.banner img{
+    max-width: 100%;
+}
+.banner .greetings{
+    position: absolute;
+    left: 23%;
+    top: 33%;
+    color: white;
+    background-color: coral;
+    padding: 10px;  
+}
+
+.banner .greetings h1{
+    font-size: 24px ;
+}
+
+.banner .greetings h1 span{
+    font-size: 1.5em;
+}
+.github img{
+    height: 80px;
+    width: 80px;
+}
+.linkedin img{
+    height: 80px;
+    width: 80px;
+}
+
+.main-content{
+    max-width: 100%;
+    box-sizing: border-box;
+    margin: 50px auto;
+    padding: 0px 20px;
+}
+.About{
+    position: relative;
+    text-align: center;}
+
+.About h2{
+    color: coral;
+    font-size: 30px;
+}
+
+.contact{
+    text-align: center;
+    align-items: left;
+    margin: 25px 0;
+}
+.contact h2{
+    color: coral;
+}
+.contact div{
+    display: inline-block;
+    margin: 10px 15px ;
+}
+
+.github img:hover{
+    position: relative;
+    bottom: 1px;
+    
+}
+.linkedin img:hover{
+    position: relative;
+    bottom: 1px;
+}
+.navbar li a:hover{
+    text-decoration: underline;
+    background-color:rgb(95, 93, 93);
+    padding: 2px 2px;
+
+}
+footer{
+    background-color: rgb(75, 74, 74);
+    padding: 7px;
+    margin: 2px;
+    max-width: 100%;
+}
+
+footer p{
+    text-align: center;
+    color: coral;
+    font-size: 10px;
+}
+@media screen and (max-width: 600px) {
+    .banner .greetings h1{
+        font-size: 10px;
+         
+    }
+}
